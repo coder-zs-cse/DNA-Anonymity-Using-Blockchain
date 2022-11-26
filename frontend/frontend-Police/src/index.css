@@ -14,11 +14,20 @@ video{
   height:100%;
   object-fit:cover
 }
-
-.videocontainer{
-  width:100%;
+/* image{
+  width:50%;
   height:100%;
+  object-fit:cover
+} */
+
+.img-container{
+  width:745.6px;
+  height:745.6px;
   
+}
+.img-container img{
+width:100%;
+height:100%
 }
 .mr-20 {
   margin-right: 20px !important;

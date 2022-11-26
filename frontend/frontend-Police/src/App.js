@@ -2,7 +2,9 @@ import React, { Component } from "react";
 import { HashRouter as Router, Route, Link, NavLink } from "react-router-dom";
 import SignUpForm from "./pages/SignUpForm";
 import SignInForm from "./pages/SignInForm";
-import videoBg from "./assets/Dna - 40967.mp4"
+// import videoBg from "./assets/Dna - 40967.mp4";
+// import Form from "./components/Form";
+import imgbg from "./assets/How-Law-Enforcement-Utilizes-Technology-header-PPU.jpg"
 
 import "./App.css";
 
@@ -18,12 +20,14 @@ class App extends Component {
           class="w-full"
           alt="Sample image"
         /> */}
-        <video src={videoBg} autoPlay loop muted/>
+        {/* <video src={videoBg} autoPlay loop muted/> */}
+        <img src={imgbg} className="img-container" alt=""  />
 
 
           </div>
           <div className="App__Form">
-            <div className="PageSwitcher">
+            
+           { /* <div className="PageSwitcher">
               <NavLink
                 to="/sign-in"
                 activeClassName="PageSwitcher__Item--Active"
@@ -58,11 +62,12 @@ class App extends Component {
               >
                 Sign Up
               </NavLink>
-            </div>
-
-            <Route exact path="/" component={SignUpForm}></Route>
-            <Route path="/sign-in" component={SignInForm}></Route>
-          </div>
+      </div>*/}
+<h1>Law Enforcement portal</h1>
+            {/* <Route exact path="/" component={SignUpForm}></Route> */}
+            <Route exact path="/" component={SignInForm}></Route>
+            {/* <Form/> */}
+          </div> 
         </div>
       </Router>
     );
