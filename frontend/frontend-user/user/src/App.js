@@ -15,9 +15,9 @@ function App() {
             <h1>User Portal</h1>
           </div>
           <div className="container">
-            <Link to="/transaction">
+            {/* <Link to="/transaction"> */}
             <button className="FormField__Button">Add New transaction</button>
-            </Link>
+            {/* </Link> */}
           </div>
           <div className="container margin-bottom:50px ">
             <button className="FormField__Button ">Update Transaction</button>
