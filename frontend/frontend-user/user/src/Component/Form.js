@@ -41,7 +41,7 @@ export default function Form() {
         <img src={imgbg} alt="" className="imgcontainer" />
       </div>
       <div className="App__Form">
-          <h1>Enter Details of the Applicant</h1>
+          <h1>Enter Details of the Patient</h1>
           <div className="form-group">
 <label htmlFor="Data">Data 1</label>
 <input

@@ -16,11 +16,11 @@ export default function Main() {
       </div>
       <div className="App__Form">
         <div className="centre">
-          <h1>User Portal</h1>
+          <h1>Clinic Portal</h1>
         </div>
         <div className="container">
           <Link to="/transaction">
-            <button className="FormField__Button">Add New transaction</button>
+            <button className="FormField__Button">Enter New Patient Details</button>
           </Link>
         </div>
         <div className="container margin-bottom:50px ">
