@@ -40,11 +40,11 @@ class SignInForm extends Component {
         <div className="FormCenter">
             <form onSubmit={this.handleSubmit} className="FormFields">
             <div className="FormField">
-                <label className="FormField__Label my-10" htmlFor="CID ">C-ID</label>
-                <input type="CID " id="CID " className="FormField__Input" placeholder="Enter your CID " name="CID " value={this.state.email} onChange={this.handleChange} />
+                <label className="FormField__Label my-10" htmlFor="CID ">CID</label>
+                <input type="CID " id="CID " className="FormField__Input" placeholder="Enter your CID " name="CID " value={this.state.CID} onChange={this.handleChange} />
               </div>
                <div className="FormField">
-                  <button className="FormField__Button mr-20" onClick={this.handleChange}>Get Public Key</button> 
+                  <button className="FormField__Button mr-20" onClick={show}>Get Public Key</button> 
                </div>
 
 {/* 
